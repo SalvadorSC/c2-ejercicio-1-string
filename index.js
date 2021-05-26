@@ -1,6 +1,6 @@
 const a = "minúsculas";
 console.log(a)
-console.log("VVVVV")
+console.log("converted into...")
 
 function primeraLetraMayus (palabra){
   let primeraLetra = palabra[0];
