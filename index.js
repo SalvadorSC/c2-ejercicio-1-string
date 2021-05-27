@@ -1,11 +1,9 @@
-const a = "minúsculas";
-console.log(a)
+const palabraMinus = "minúsculas";
+console.log(palabraMinus)
 console.log("converted into...")
 
 function primeraLetraMayus (palabra){
-  let primeraLetra = palabra[0];
-  primeraLetra = primeraLetra.toUpperCase()
-  console.log(palabra.replace(palabra[0],primeraLetra));
+  console.log(palabra.replace(palabra[0],palabra[0].toUpperCase()));
 }
 
-primeraLetraMayus(a)
+primeraLetraMayus(palabraMinus)
